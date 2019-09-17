@@ -1,0 +1,8 @@
+// Import variables (overrides Bootstrap defaults)
+@import "base/variables.scss";
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import base styles
+@import "base/page.scss";
