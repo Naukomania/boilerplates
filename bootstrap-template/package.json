@@ -16,9 +16,6 @@
     ],
     "license": "MIT",
     "author": "Start Bootstrap",
-    "browserslist": [
-        "last 1 version"
-    ],
     "dependencies": {
         "bootstrap": "4.3.1"
     },

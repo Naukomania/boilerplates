@@ -85,14 +85,11 @@ function js() {
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./scss/**/*", css);
+  gulp.watch("./scss/**/*", css, browserSyncReload);
   gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
-function vendor() {
-  return true;
-}
 
 // Define complex tasks
 const build = gulp.series(gulp.parallel(css, js));
